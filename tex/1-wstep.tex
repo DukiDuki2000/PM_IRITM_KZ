@@ -1,0 +1,14 @@
+\newpage
+\section{Wstęp}
+% Cel pracy, motywacja, opis problemu
+Wraz z postępem technologicznym i co raz to większym zapotrzebowanie na realizm wirtualnych środowisk, takich jak gry komputorowe, aplikacje VR oraz jeszcze lepsza impersje przestrzennego dźwięku
+
+Rozwój technologii wirtualnej rzeczywistości, gier komputerowych oraz systemów audio 3D sprawił, że realistyczne odwzorowanie przestrzennego dźwięku stało się istotnym obszarem badań. Kluczowym elementem tych systemów jest funkcja przejścia związana z głową (HRTF -- Head-Related Transfer Function), która opisuje, w jaki sposób dźwięk docierający z określonego kierunku jest modyfikowany przez anatomię słuchacza -- małżowiny uszne, głowę, ramiona i tułów. Znajomość indywidualnych charakterystyk HRTF pozwala na syntezę wiarygodnego wrażenia przestrzennego dźwięku w słuchawkach, bez konieczności stosowania fizycznych głośników rozmieszczonych wokół słuchacza.
+
+Pomiary odpowiedzi impulsowych związanych z głową (HRIR -- Head-Related Impulse Response) są podstawowym sposobem wyznaczania HRTF. Klasyczne metody pomiarowe opierają się na sekwencyjnym wzbudzaniu źródeł dźwięku rozmieszczonych na sferze otaczającej słuchacza. Przy dużej rozdzielczości kątowej, wymaganej dla dokładnego odwzorowania przestrzennego, prowadzi to do znacznego wydłużenia czasu pomiaru. W przypadku badań z udziałem ludzi stanowi to istotne ograniczenie -- mimowolne ruchy głowy podczas długotrwałej sesji pomiarowej wpływają negatywnie na spójność i poprawność uzyskanych wyników. Problem ten jest szczególnie widoczny przy pomiarach indywidualnych HRTF, gdzie wymagana jest obecność badanej osoby przez cały czas trwania pomiaru.
+
+Rozwiązaniem tego problemu może być zastosowanie metod umożliwiających równoczesne odtwarzanie sygnałów pomiarowych z wielu źródeł dźwięku. Wykorzystanie kodów ortogonalnych, znanych z systemów telekomunikacyjnych CDMA, pozwala na separację odpowiedzi impulsowych poszczególnych źródeł z sygnału zarejestrowanego podczas jednoczesnego wzbudzania. Dzięki temu możliwe jest znaczące skrócenie czasu pomiaru przy zachowaniu wymaganej rozdzielczości kątowej.
+
+Celem niniejszej pracy jest weryfikacja metody pomiarowej wykorzystującej kody ortogonalne do równoczesnego odtwarzania sygnału pomiarowego dla kilku źródeł dźwięku. W ramach pracy zbadano właściwości różnych rodzajów kodów ortogonalnych pod kątem ich przydatności w pomiarach akustycznych, zaimplementowano system pomiarowy oraz przeprowadzono eksperymenty weryfikujące skuteczność proponowanej metody.
+
+test
